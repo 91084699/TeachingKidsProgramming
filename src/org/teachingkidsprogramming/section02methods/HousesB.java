@@ -11,16 +11,20 @@ public class HousesB
     Tortoise.setSpeed(10);
     Tortoise.setX(200);
     int height = 40;
-    drawHouse(height);
-    drawHouse(30);
-    drawHouse(120);
-    drawHouse(150);
-    drawHouse(90);
-    drawHouse(70);
-    drawHouse(20);
-    drawHouse(100);
-    drawHouse(200);
-    //drawHousesSlantedRoof
+    drawHouseFlatRoof(height);
+    drawHousePointyRoof(30);
+    drawHouseFlatRoof(120);
+    drawHousePointyRoof(150);
+    drawHouseFlatRoof(30);
+    //drawHousesSlantedRoof(50)
+  }
+  private static void drawHouseFlatRoof(int height)
+  {
+    // TODO Auto-generated method stub
+  }
+  private static void drawHousePointyRoof(int i)
+  {
+    // TODO Auto-generated method stub
   }
   //define a method called drawHouse SlantedRoof
   //define a method called DrawSlantedRoof
