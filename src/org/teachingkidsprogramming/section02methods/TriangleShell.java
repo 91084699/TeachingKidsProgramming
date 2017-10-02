@@ -10,7 +10,7 @@ public class TriangleShell
   {
     // Show the tortoise --#1
     // Make the tortoise go as fast as possible --#6
-    Tortoise.getSpeed(10);
+    Tortoise.setSpeed(10);
     // Do the following 60 times --#7.1
     //      Change the pen color of the line the tortoise draws to a random color --#9
     //      Increase the current length of the side by 4 pixels --#8
