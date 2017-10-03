@@ -8,7 +8,7 @@ public class ConcentricLoop
   {
     Tortoise.show();
     //  Set the tortoise x position to 150 --#4.1
-    Tortoise.turn(150)
+    Tortoise.turn(150);
     //  Set the tortoise y position to 200 --#4.2
     Tortoise.move(200);
     //  Set the tortoise speed to 10  --#4.3
