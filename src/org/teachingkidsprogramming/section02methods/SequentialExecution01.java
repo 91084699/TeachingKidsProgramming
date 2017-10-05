@@ -2,6 +2,7 @@ package org.teachingkidsprogramming.section02methods;
 
 public class SequentialExecution01
 {
+  static int 
   // looking at sequential execution,
   //    the order operations run in a program
   public static void main(String[] args)
