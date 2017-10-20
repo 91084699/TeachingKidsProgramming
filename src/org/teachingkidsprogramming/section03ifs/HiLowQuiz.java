@@ -13,8 +13,9 @@ public class HiLowQuiz extends org.teachingkidsprogramming.recipes.quizzes.grade
   {
     //  If the Y position of the tortoise is 115
     if (Y = 115)
-      //  Turn the tortoise to the right 63 degrees 
-      Tortoise.turn(63);
+      ;
+    //  Turn the tortoise to the right 63 degrees 
+    Tortoise.turn(63);
   }
   @Override
   public void question2()
