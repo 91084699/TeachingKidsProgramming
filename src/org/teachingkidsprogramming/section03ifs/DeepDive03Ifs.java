@@ -2,6 +2,7 @@ package org.teachingkidsprogramming.section03ifs;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 
 @SuppressWarnings("unused")
 public class DeepDive03Ifs
@@ -212,16 +213,65 @@ public class DeepDive03Ifs
     }
     Assert.assertEquals("hambulance", status);
   }
-  @Test
   public void semicolonsMessUpIfStatements() throws Exception
   {
     String dessert = "chocolate";
     if (false)
-      ;
     {
       dessert = "ketchup";
     }
-    Assert.assertEquals(___, dessert);
+    Assert.assertEquals("chocolate", dessert);
+  }
+  public void cyoaInputTest() throws Exception
+  {
+    String result = MessageBox.askForTextInput("Enter a word");
+    // test that user entered "hello"
+    Assert.assertEquals(result, "wake up");
+  }
+  public void ifExplore() throws Exception
+  {
+  }
+  public void cyoaIncorrectInputTest() throws Exception
+  {
+    String result = MessageBox.askForTextInput("Do you want to 'wake up' or 'explore' the dream?");
+    Assert.assertEquals("", result);
+    //unfinished choose your own adventure
+  }
+  public void ifStatements() throws Exception
+  {
+    String teacherSays = "may";
+    if (false)
+    {
+      teacherSays = "can't";
+    }
+    Assert.assertEquals("may", teacherSays);
+  }
+  public void doNotDoIt() throws Exception
+  {
+    String friendSays = "yes";
+    if (false)
+    {
+      friendSays = "I did not tell him";
+    }
+    Assert.assertEquals("yes", friendSays);
+  }
+  public void doYourhomework() throws Exception
+  {
+    String DadSaysDoYourHomework = "now";
+    if (false)
+    {
+      DadSaysDoYourHomework = "youAreGrounded";
+    }
+    Assert.assertEquals("now", DadSaysDoYourHomework);
+  }
+  @Test
+  public void madminutes() throws Exception
+  {
+    String time = "";
+    int student1 = 1;
+    int student2 = 2;
+    if (student1 == 1 && student2 == 2)
+      ;
   }
   /**
    * Ignore the following, It's needed to run the deep dive
