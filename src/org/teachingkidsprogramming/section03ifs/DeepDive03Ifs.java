@@ -96,7 +96,7 @@ public class DeepDive03Ifs
   public void lessThan() throws Exception
   {
     String modeOfTransportation = "";
-    int age = ____;
+    int age = 10;
     if (age < 16)
     {
       modeOfTransportation = "keep walking";
@@ -111,7 +111,7 @@ public class DeepDive03Ifs
   public void greaterThan() throws Exception
   {
     String kidSays = "";
-    int numberOfIceCreams = ____;
+    int numberOfIceCreams = 5;
     if (numberOfIceCreams > 4)
     {
       kidSays = "I think I'm gonna barf";
