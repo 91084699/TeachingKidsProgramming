@@ -45,15 +45,11 @@ public class TurtleTree
     Tortoise.turn(-60);
     drawShorterBranch(length);
     Tortoise.turn(30);
-    //            adjustColor --#16
     adjustColor(length);
     Tortoise.move(-1 * length);
-    //        ------------- End of drawLowerBranches recipe --#6.3
   }
   private static void drawShorterBranch(int length)
   {
-    //            ------------- Recipe for drawShorterBranch --#8.2
     drawBranch(length - 10);
-    //            ------------- End of drawShorterBranch recipe --#8.3
   }
 }
