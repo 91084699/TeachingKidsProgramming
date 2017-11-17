@@ -18,8 +18,11 @@ public class RecursiveSquare
     double length = 100.0;
     //  MakeASquare with the current length(recipe below) --#11.4
     //
-    //  Create the makeASquare recipe --#11.1
     makeASquare(length);
+  }
+  private static void makeASquare(double length)
+  {
+    //  Create the makeASquare recipe --#11.1
     //  If the current length is greater than 10 --#10.2
     if (length > 10)
       ;
